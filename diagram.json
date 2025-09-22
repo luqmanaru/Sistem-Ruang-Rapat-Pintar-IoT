@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "author": "Kelompok 5 - IoT 1",
+  "created": "2024",
+  "description": "Diagram koneksi untuk sistem ruang rapat IoT",
+  "connections": [
+    {
+      "component": "LCD I2C",
+      "pin": "SDA (A4), SCL (A5)",
+      "type": "I2C Communication"
+    },
+    {
+      "component": "Sensor Gerak PIR",
+      "pin": "2",
+      "type": "Digital Input"
+    },
+    {
+      "component": "Sensor Suhu DHT11",
+      "pin": "3",
+      "type": "Digital Input"
+    }
+  ],
+  "notes": "LCD menggunakan modul I2C dengan alamat 0x27. Sensor DHT11 terhubung ke pin digital 3. Sensor PIR terhubung ke pin digital 2."
+}
