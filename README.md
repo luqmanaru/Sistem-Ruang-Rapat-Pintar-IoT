@@ -150,6 +150,8 @@ void updateDisplay() {
   lcd.print("%");
 }
 ```
+## Rangkaian Digital
+<img width="827" height="939" alt="image" src="https://github.com/user-attachments/assets/5b93b9ae-82ea-47b6-8dee-d20fe083889e" />
 
 ## 📊 Output Sistem
 | Komponen | Output | Deskripsi |
